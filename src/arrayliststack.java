@@ -18,6 +18,6 @@ public class arrayliststack {
          return arr.isEmpty();
      }
      int size(){
-         return arr.size() - 1;
+         return arr.size();
      }
 }

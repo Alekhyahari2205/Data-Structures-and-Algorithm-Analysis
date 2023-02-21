@@ -15,5 +15,13 @@ public class Main {
         System.out.println(d.pop());
         System.out.println(d.size());
         System.out.println(d.isEmpty());
+
+        Linkedliststack l = new Linkedliststack();
+        l.push(5);
+        l.push(6);
+        l.push(45);
+        System.out.println(l.pop());
+        System.out.println(l.size());
+        System.out.println(l.isEmpty());
     }
 }
